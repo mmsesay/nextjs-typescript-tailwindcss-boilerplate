@@ -1,0 +1,36 @@
+{
+  "name": "nextjs-typescript-tailwindcss-boilerplate",
+  "version": "1.0.0",
+  "description": "This is a Nextjs, Typescript, Tailwindcss Boilerplate project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mmsesay/nextjs-typescript-tailwindcss-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "Muhammad Sesay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mmsesay/nextjs-typescript-tailwindcss-boilerplate.git/issues"
+  },
+  "homepage": "https://github.com/mmsesay/nextjs-typescript-tailwindcss-boilerplate.git#readme",
+  "dependencies": {
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "autoprefixer": "^9.8.6",
+    "next": "^9.5.5",
+    "postcss": "^7.0.35",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.17",
+    "@types/react": "^17.0.0",
+    "typescript": "^4.1.3"
+  }
+}
